@@ -1,10 +1,14 @@
+import "./App.css";
+import UserContextProvider from "./CONTEXTAPI/1. HITESH/AUTHANTICATION/CONTEXT/UserContextProvider";
+import Login from "./CONTEXTAPI/1. HITESH/AUTHANTICATION/components/Login";
+import Profile from "./CONTEXTAPI/1. HITESH/AUTHANTICATION/components/Profile";
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <h1>hi</h1>
-    </div>
-  )
+    <UserContextProvider>
+      <h3 className="bg-green-900">React Class For Context API</h3>
+      <Login />
+      <Profile />
+    </UserContextProvider>
+  );
 }
-
-export default App
