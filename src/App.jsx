@@ -1,9 +1,13 @@
-import "./App.css";
-import InventoryList from "./USEREDUCER/TAPASH/Inventory List/components/InventoryList";
+import Focuse from "./USEREF/DOC/Focuse";
+import Index from "./USEREF/DOC/Index";
+import Scroling from "./USEREF/DOC/Scrolling";
 export default function App() {
   return (
     <>
-      <InventoryList />
+      <Index />
+      <Focuse />
+      <br />
+      <Scroling />
     </>
   );
 }
