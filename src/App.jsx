@@ -1,9 +1,10 @@
-import "./App.css";
-import InventoryList from "./USEREDUCER/TAPASH/Inventory List/components/InventoryList";
+// import "./App.css";
+import Tasker from "./USEREDUCER/LWS/COMPONENTS/Tasker";
+
 export default function App() {
   return (
     <>
-      <InventoryList />
+      <Tasker />
     </>
   );
 }

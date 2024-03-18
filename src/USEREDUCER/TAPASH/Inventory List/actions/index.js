@@ -1,6 +1,0 @@
-const FETCH_ACTIONS = {
-  PROGRASS: "PROGRESS",
-  SUCCESS: "SUCCESS",
-  ERROR: "ERROR",
-};
-export { FETCH_ACTIONS };
